@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#pdf-render {
+    border: 1px solid black;
+    max-width: 80%; /* You can adjust this to suit your needs */
+    height: auto;
+    margin-bottom: 20px; /* Space between the PDF and the buttons */
+    box-shadow: 50px #555;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
