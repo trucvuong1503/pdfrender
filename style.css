@@ -6,7 +6,6 @@
 
 body {
     display: flex;
-    width: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -17,7 +16,7 @@ body {
 #pdf-render {
     border: 1px solid black;
     max-width: 70%; /* You can adjust this to suit your needs */
-    height: 500px;
+    height: auto;
     margin-bottom: 20px; /* Space between the PDF and the buttons */
     box-shadow: 50px #555;
 }
@@ -52,4 +51,9 @@ button:hover {
     border: 1px solid black;
     margin-bottom: 20px; /* Space between the PDF and the buttons */
     box-shadow: 50px #555;
+}
+
+#pdf-viewer{
+    margin: 20px;
+    padding: 60px 50px;
 }
