@@ -7,24 +7,30 @@
     <link rel="stylesheet" href="style.css">
     <!-- <script src="/pdf.js-master/web/pdfjs.js"></script> -->
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.6/pdfobject.min.js"></script>
 
     <title>Document</title>
 </head>
 <body>
     <H1>My PDF</H1>
-   
+    <h1>一つ目の方</h1>
     <div id="button-container">
             <button id="prev">Previous</button>
             <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
             <button id="next">Next</button>
     </div>
-        
-    
     <canvas id="pdf-render"></canvas>
-    <!-- <script src="/pdf.js-master/web/viewer.js"></script> -->
+<div class="pdf-doc">
+    <h1>二つ目の方</h1>
+    <iframe src="https://drive.google.com/file/d/1zBtkiGm9AlWLrM5O6wwpRlTYwg8zDThj/preview" width="100%" height="100%"></iframe>
+    
+</div>
+    <div id="pdf-viewer">
+        <h1>三つ目の方</h1>
+    </div>
 
     <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
     <script src="./scripts/app.js"></script>
-
+    <script src="./scripts/js.js"></script>
 </body>
 </html>

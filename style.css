@@ -6,17 +6,18 @@
 
 body {
     display: flex;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     font-family: Arial, sans-serif;
+    margin: 50px;
 }
 
 #pdf-render {
     border: 1px solid black;
-    max-width: 80%; /* You can adjust this to suit your needs */
-    height: auto;
+    max-width: 70%; /* You can adjust this to suit your needs */
+    height: 500px;
     margin-bottom: 20px; /* Space between the PDF and the buttons */
     box-shadow: 50px #555;
 }
@@ -44,3 +45,11 @@ button:hover {
     background-color: #45a049;
 }
 
+.pdf-doc{
+    
+    width: 70%;
+    height: 500px;
+    border: 1px solid black;
+    margin-bottom: 20px; /* Space between the PDF and the buttons */
+    box-shadow: 50px #555;
+}
